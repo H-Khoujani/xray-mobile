@@ -2,8 +2,6 @@ module github.com/khayyamov/xray-mobile
 
 go 1.21
 
-toolchain go1.21.1
-
 require github.com/xtls/xray-core v1.8.4
 
 require (
