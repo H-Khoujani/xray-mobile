@@ -1,4 +1,4 @@
-module github.com/EbrahimTahernejad/xray-mobile
+module github.com/khayyamov/xray-mobile
 
 go 1.20
 
