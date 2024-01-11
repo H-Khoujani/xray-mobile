@@ -2,7 +2,7 @@ module github.com/khayyamov/xray-mobile
 
 go 1.21
 
-require github.com/xtls/xray-core v1.8.4
+require github.com/xtls/xray-core v1.8.6
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
