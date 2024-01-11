@@ -17,6 +17,7 @@ all: ios android
 
 ios:
 	mkdir -p $(BUILDDIR)
+	go get -d github.com/sagernet/gomobile/bind
 	eval $(BUILD_IOS)
 
 android:
