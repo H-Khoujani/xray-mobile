@@ -29,10 +29,11 @@ jobs:
         run: |
           #!/bin/bash
           
+          ls /opt/hostedtoolcache/go/
+          go version
           awk 'NR<613 || NR>633' /opt/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go > /opt/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go.tmp && mv /opt/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go.tmp /opt/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go
           cat /opt/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go
-          go version
-      
+
       - name: Setup Gomobile
         run: |
           go install golang.org/x/mobile/cmd/gomobile@latest
