@@ -31,7 +31,7 @@ jobs:
           
           ls /Users/runner/hostedtoolcache/go/
           go version
-          awk 'NR<613 || NR>633' /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go > /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go.tmp && mv /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go.tmp /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go
+          awk 'NR<598 || NR>618' /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go > /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go.tmp && mv /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go.tmp /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go
           cat /Users/runner/hostedtoolcache/go/1.21.6/x64/src/net/http/request.go
 
       - name: Setup Gomobile
