@@ -11,8 +11,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "XRay",
-      url: "https://github.com/khayyamov/xray-mobile/releases/download/1.8.7/XRay.xcframework.zip",
-      checksum: "974c3974c7d1709719a1b6591bcd8a2625257cc8ee9686b2b596920829625c93"
+      url: "https://github.com/khayyamov/xray-mobile/releases/download/1.8.11/XRay.xcframework.zip",
+      checksum: "d995a2b40456f256a9c7fe304f869a003e4d184d8d3e8053e93c9ccff366b11f"
     )
   ]
 )
